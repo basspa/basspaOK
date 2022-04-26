@@ -1,10 +1,130 @@
-- 👋 Hi, I’m @basspa
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chargement...</title>
+    <style>
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to top,rgb(140, 0, 255),rgb(0, 72, 255));
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-<!---
-basspa/basspa is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    
+}
+video{
+position: relative;
+width: 500px;
+height: 500px;
+
+
+}
+#H{
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    align-items: center;
+
+    justify-content: center;
+
+   background: rgba(49, 49, 49, 0.357);
+    width: 100%;
+    height: 100vh;
+
+}
+
+#you{
+    position: relative;
+    color: rgb(245, 245, 245);
+text-decoration: none;
+font-size :2.5em;
+font-family:sans-serif;
+font-weight: bolder;
+padding-bottom: 20px;
+padding-top: 20px;
+margin: 50px;
+background: rgb(255, 0, 0);
+border-radius: 10px;
+}
+
+#goo{
+    position: relative;
+    color: rgb(245, 245, 245);
+text-decoration: none;
+font-size:2.2em;
+font-family:serif;
+font-weight: bolder;
+margin: 50px;
+background: rgba(164, 165, 165, 0.474);
+border-bottom:  2px solid rgb(52, 193, 225);
+}
+.OK{
+    position: relative;
+    width:200px;
+    float: left;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    top: 20vh;
+}
+    </style>
+
+
+
+</head>
+<body>
+
+    <div id="H">
+        <div class="OK">
+        <a href="https://www.google.com/" target="_blank" id="goo">google</a>
+        <a href="https://youtu.be/-eK6JBmjsQM" target="_blank" id="you"  >You tube</a>
+    </div>
+    </div>
+   <video src="https://youtu.be/-eK6JBmjsQM" muted   autoplay loop>
+
+<source srcset="https://youtu.be/-eK6JBmjsQM" type="video/*">
+   </video> 
+
+   <script async>
+
+
+
+window.onload=()=>{
+
+ const flex =Math.floor(Math.random()*105440)+2000;
+
+ setTimeout(tpl,2000);
+ 
+
+
+
+function tpl() {
+
+    setInterval(tpk,flex);
+
+
+function tpk() {
+    window.location.reload();
+
+}
+    
+}
+}
+
+    
+    
+    
+    </script>
+</body>
+</html>
